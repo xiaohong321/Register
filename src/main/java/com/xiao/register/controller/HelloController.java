@@ -15,6 +15,6 @@ public class HelloController {
     @GetMapping("/hello")
     public String hello(){
         System.out.println("this is a jenkins test a");
-        return "my name is xiaohongsheng, this is a test work ,use kill test.sh success";
+        return "my name is xiaohongsheng, this is a test work ,use for test success";
     }
 }
